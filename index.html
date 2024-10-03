@@ -1,4 +1,4 @@
-<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
   
     <title>service login page</title>
     <script>
@@ -13,7 +13,7 @@
     
     <input type=hidden name='captcha_settings' value='{"keyname":"google","fallback":"true","orgId":"00DdL000004FwmA","ts":""}'>
     <input type=hidden name="orgid" value="00DdL000004FwmA">
-    <input type=hidden name="retURL" value="http://">
+    <input type=hidden name="retURL" value="https://gvjeevitha.github.io/service-case/">
     
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -23,24 +23,59 @@
     <!--  value="jeevithaaids@gmail.com">                                         -->
     <!--  ----------------------------------------------------------------------  -->
     <body>
+    <!-- MAKE A LOGIN FORM -->
+    <div class="container">
+         <div class="form-box login">
+              <h2>login</h2>
+              <form action="#">
+                    <div class="input box">
+                    <label for="name">Name</label>
+                
         
+                         <input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                         
+                         </div>
+                         <div class="input-box">
+                              <label for="email">Email</label>
 
-    <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
-    
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    
-    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
-    
-    <label for="subject">productname</label><input  id="product name" maxlength="80" name="product name" size="20" type="text" /><br>
-    
-    <label for="description">Description</label><textarea name="description"></textarea><br>
-    
-    <link rel="stylesheet" href="style.css">
-    <input type="submit" name="submit">
+                               <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                               <box-icon name='envelope' type='solid' ></box-icon>
+                         </div>
+                         <div class="input-box">
+                              <label for="phone">Phone</label>
+                               <input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                               <box-icon name='phone' type='solid' ></box-icon>
+                         </div>
+                         <div class="input-box">
+                              <label for="subject">productname</label>
+                              <input  id="product name" maxlength="80" name="product name" size="20" type="text" /><br>
+                         </div>
+                         <div class="input-box">
+                            <label for="subject">description</label>
+                            <input type="description" maxlength="80" name="description " size="20" type="text"/><br>
+                         </div>
+                         <label for="reason">Case Reason</label><select  id="reason" name="reason"><option value="">--None--</option><option value="Installation">Installation</option>
+                              <option value="Equipment Complexity">Equipment Complexity</option>
+                              <option value="Performance">Performance</option>
+                              <option value="Breakdown">Breakdown</option>
+                              <option value="Equipment Design">Equipment Design</option>
+                              <option value="Feedback">Feedback</option>
+                              <option value="Other">Other</option>
+                              </select><br>
+                              
+                              
+                        
+                           <link rel="stylesheet" href="style.css">
+                           <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+                           <div class="input-box">
+                             <button class="btn" type="submit" name="submit" button>submit</button>
+                        
+                        </div>
     
         
 
     </form>
     <body>
         <html>
+    
     
